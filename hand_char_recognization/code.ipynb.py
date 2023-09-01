@@ -13,6 +13,7 @@ testY = []
 
 for folder in os.listdir("./Handwriting_Data"):
     f = os.path.join("./Handwriting_Data", folder)
+
     tst = os.path.join(f, "dev")
     trn = os.path.join(f, "train")
     
